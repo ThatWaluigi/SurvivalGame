@@ -1,0 +1,39 @@
+{
+  "Map": {
+    "Chunks": [
+      {
+        "Tiles": [
+          "[TLtGAgDyJLXMLFKGX0uuNw\u003d\u003d, pFv257E5Gc4V9ORYMSXJUA\u003d\u003d, 8NmepRyy41TV0b4NZ8ScXA\u003d\u003d, fwEzeGtBZfnZw8AdIDhw2Q\u003d\u003d]",
+          "[Tc7sIvC45qrHcGvouUYw7A\u003d\u003d, +uXSzW+sc4ychhgAEvP0dA\u003d\u003d, s/ajzOhUSZRmmItVp6STIw\u003d\u003d]",
+          "[tzdL3ywwPsUJUjYENLz98A\u003d\u003d]",
+          "[sMxaKQ/P1NKT5FGunvIl1g\u003d\u003d]",
+          "[+ihtOSsMOQjDq11b0l1CcA\u003d\u003d]",
+          "[DIpq6EiycaN8e3bJN6atCA\u003d\u003d, 61WkNonncSVW2jLYqjJsJA\u003d\u003d]",
+          "[9Zbj+WG3yCT9vXaVtcdaeg\u003d\u003d]",
+          "[FEvRwpseq/HBvYIdqp05Xw\u003d\u003d]",
+          "[5oJvACK9oqyDndW9VNvKgg\u003d\u003d]"
+        ],
+        "Position": "2jZW2KYAjwm0ZTWcv/DFHA\u003d\u003d",
+        "Biome": "ZXdlgZZXIqBS54GSNjD3eg\u003d\u003d"
+      },
+      {
+        "Tiles": [
+          "[9DDAEdW3SaOo5QvpgQtyDA\u003d\u003d, Iynf/mv9FVozzY6utTJ9JA\u003d\u003d, fwEzeGtBZfnZw8AdIDhw2Q\u003d\u003d]",
+          "[fWtPyuu4FVdZzKEfRwftcw\u003d\u003d]",
+          "[EVaWZeSYNmxC81G5d96l2w\u003d\u003d]",
+          "[bCIg6HcBIXoOWHeyfF/KKQ\u003d\u003d]",
+          "[66gaZuQ5tUKic3rBXRQwrg\u003d\u003d]",
+          "[7y3oa9bQFOJuvs/kjVuwow\u003d\u003d, TRcuCgnWHqwZAGJjDJMA5w\u003d\u003d]",
+          "[PocpBWORJm1xRARHD4RaBA\u003d\u003d]",
+          "[LBN/4aBDFC6cUDbRZc/L9w\u003d\u003d]"
+        ],
+        "Position": "JHNbqBSSR4W5KBHyt5UAVw\u003d\u003d",
+        "Biome": "ZXdlgZZXIqBS54GSNjD3eg\u003d\u003d"
+      }
+    ]
+  },
+  "Player": {
+    "Position": "LIHseBGdysMVmKNRkmHfRw\u003d\u003d",
+    "CurrentChunk": "JHNbqBSSR4W5KBHyt5UAVw\u003d\u003d"
+  }
+}
