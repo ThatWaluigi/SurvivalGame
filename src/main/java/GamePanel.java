@@ -228,6 +228,7 @@ public class GamePanel extends JPanel implements ActionListener {
             Player.Draw(g, GRID_TILE_SIZE);
             if (Player.InvOpen){
                 Player.PlayerInv.Draw(g, 50, getHeight() - 150);
+                g.drawString(String.valueOf(Player.HeldTool.Type), 50, getHeight() - 160);
             }
             if (isSaving){
                 g.setColor(new Color(34, 255, 0));
