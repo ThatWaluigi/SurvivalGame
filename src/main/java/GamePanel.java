@@ -227,7 +227,7 @@ public class GamePanel extends JPanel implements ActionListener {
             Player.CurrentChunk.Draw(g, GRID_SIZE, GRID_TILE_SIZE);
             Player.Draw(g, GRID_TILE_SIZE);
             if (Player.InvOpen){
-                Player.PlayerInv.Draw(g, 50, getHeight() - 100);
+                Player.PlayerInv.Draw(g, 50, getHeight() - 150);
             }
             if (isSaving){
                 g.setColor(new Color(34, 255, 0));

@@ -43,10 +43,12 @@ public class Inventory {
         RenderSys sys = new RenderSys();
         g.setColor(new Color(100, 100, 100, 180));
         g.fillRect(invX - 5, invY - 5, 250, 120);
+        g.setColor(Color.BLACK);
         for(int i = 0 ; i<List.size(); i++) {
             Slot slot = List.get(i);
-            g.drawString(slot.SlotItem.Name + ": " + slot.Amount + " / " + slot.SlotItem.SlotCapacity, invX + 25, invY + 20 + 12 * i);
-            sys.DrawImage(g, invX + 10, invY + 7 + 12 * i, slot.SlotItem.Icon, 15);
+            g.drawString(slot.SlotItem.Name + ": " + slot.Amount + " / " + slot.SlotItem.SlotCapacity, invX + 25, invY + 18 + 12 * i);
+            sys.DrawImage(g, invX + 8, invY + 3 + 12 * i, slot.SlotItem.Icon, 20);
         }
+        g.drawRect(invX-5, invY-5, 250, 120);
     }
 }
