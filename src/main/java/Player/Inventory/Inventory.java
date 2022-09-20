@@ -41,6 +41,8 @@ public class Inventory {
 
     public void Draw(Graphics g, int invX, int invY){
         RenderSys sys = new RenderSys();
+        g.setColor(new Color(100, 100, 100, 180));
+        g.fillRect(invX - 5, invY - 5, 250, 120);
         for(int i = 0 ; i<List.size(); i++) {
             Slot slot = List.get(i);
             g.drawString(slot.SlotItem.Name + ": " + slot.Amount + " / " + slot.SlotItem.SlotCapacity, invX + 25, invY + 20 + 12 * i);

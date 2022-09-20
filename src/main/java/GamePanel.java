@@ -1,6 +1,9 @@
+import Player.Inventory.Inventory;
 import Player.Player;
+import Player.Tool.Tool;
 import Storage.BiomeList;
 import Storage.ObjectList;
+import Storage.ToolList;
 import Utilities.Encryption.Encryption;
 import Utilities.RenderSys;
 import World.Chunk;
@@ -223,6 +226,9 @@ public class GamePanel extends JPanel implements ActionListener {
             Render.DrawGrid(g, GRID_SIZE, GRID_TILE_SIZE, SCREEN_SIZE, Color.GRAY);
             Player.CurrentChunk.Draw(g, GRID_SIZE, GRID_TILE_SIZE);
             Player.Draw(g, GRID_TILE_SIZE);
+            if (Player.InvOpen){
+                Player.PlayerInv.Draw(g, 50, getHeight() - 100);
+            }
             if (isSaving){
                 g.setColor(new Color(34, 255, 0));
                 g.setFont(SaveFont);
@@ -242,6 +248,10 @@ public class GamePanel extends JPanel implements ActionListener {
                 case KeyEvent.VK_D -> {Player.Position.Move(1, 0); Collisions();}
                 case KeyEvent.VK_P -> SaveGame();
                 case KeyEvent.VK_T -> Player.CurrentChunk.GetTile(Player.Position.X, Player.Position.Y).Object = ObjectList.ROCK;
+                case KeyEvent.VK_1 -> Player.HeldTool = ToolList.WOODED_AXE.tool;
+                case KeyEvent.VK_2 -> Player.HeldTool = ToolList.WOODED_PICKAXE.tool;
+                case KeyEvent.VK_3 -> Player.HeldTool = ToolList.WOODED_SHOVEL.tool;
+                case KeyEvent.VK_E -> Player.InvOpen = !Player.InvOpen;
             }
         }
     }

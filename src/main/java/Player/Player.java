@@ -25,6 +25,7 @@ public class Player implements ActionListener {
     public Position Position;
     public Image PlayerImage;
     public Inventory PlayerInv;
+    public Boolean InvOpen;
     public float CurrentCooldown;
     public Tool HeldTool;
     Timer timer;
@@ -41,6 +42,7 @@ public class Player implements ActionListener {
         this.Facing = Directions.EAST;
         this.PreviousFacing = null;
         this.HeldTool = ToolList.WOODED_AXE.tool;
+        this.InvOpen = false;
         timer = new Timer(60, this);
         timer.start();
     }
