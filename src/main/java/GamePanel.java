@@ -247,8 +247,8 @@ public class GamePanel extends JPanel implements ActionListener {
                 case KeyEvent.VK_A -> {Player.Position.Move(-1, 0); Collisions();}
                 case KeyEvent.VK_S -> {Player.Position.Move(0, 1); Collisions();}
                 case KeyEvent.VK_D -> {Player.Position.Move(1, 0); Collisions();}
-                case KeyEvent.VK_P -> SaveGame();
-                case KeyEvent.VK_T -> Player.CurrentChunk.GetTile(Player.Position.X, Player.Position.Y).Object = ObjectList.ROCK;
+                case KeyEvent.VK_R -> SaveGame();
+                //case KeyEvent.VK_T -> Player.CurrentChunk.GetTile(Player.Position.X, Player.Position.Y).Object = ObjectList.ROCK;
                 case KeyEvent.VK_1 -> Player.HeldTool = ToolList.WOODED_AXE.tool;
                 case KeyEvent.VK_2 -> Player.HeldTool = ToolList.WOODED_PICKAXE.tool;
                 case KeyEvent.VK_3 -> Player.HeldTool = ToolList.WOODED_SHOVEL.tool;

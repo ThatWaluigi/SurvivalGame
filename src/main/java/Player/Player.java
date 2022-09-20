@@ -17,7 +17,7 @@ import java.awt.event.ActionListener;
 import java.util.Random;
 
 public class Player implements ActionListener {
-    public final float MoveCooldown = 0.08f;
+    public final float MoveCooldown = 0.065f;
     public final VisualTimer Visual;
     public Dimension MaxGridBound;
     public Chunk CurrentChunk;
